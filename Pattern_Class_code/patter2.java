@@ -14,6 +14,9 @@ public class patter2 {
 
             //column asymmetric
             System.out.println("Column Asymmetric");
+            for (int i = 0; i < 10; i++) {
+                System.out.println("*");
+            }
 
         }
     }

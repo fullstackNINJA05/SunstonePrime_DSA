@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class patter2 {
+public class pattern2 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int i, j, n = sc.nextInt();

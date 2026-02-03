@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class patter4 {
+public class pattern4 {
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)){
             int n = sc.nextInt();

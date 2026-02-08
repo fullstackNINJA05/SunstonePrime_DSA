@@ -1,16 +1,14 @@
-public class p8 {
-    
-}
 import java.util.Scanner;
-public class p7 {
+public class p8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int l = sc.nextInt();
+        int w = sc.nextInt();
 
-        //hollow square
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=n; j++){
-                if(i==1 || i==n || j==1 || j==n){
+        //hollow rectangle
+        for(int i=1; i<=l; i++){
+            for(int j=1; j<=w; j++){
+                if(i==1 || i==l || j==1 || j==w){
                     System.out.print("* ");
                 }
                 else{

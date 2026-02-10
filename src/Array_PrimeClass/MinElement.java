@@ -9,7 +9,7 @@ public class MinElement {
             a[i] = sc.nextInt();
         }
         int min = a[0];
-        //logic for finding max element
+        //logic for finding max element3
         for (int i = 0; i < a.length; i++) {
             if(a[i]<min){
                min = a[i];

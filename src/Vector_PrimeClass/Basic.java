@@ -4,7 +4,6 @@ import java.util.Vector;
 
 public class Basic {
     public static void main(String[] args) {
-
         Vector<Integer> v = new Vector<>();
 
         // adding elements

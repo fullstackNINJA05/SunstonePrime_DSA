@@ -11,10 +11,10 @@ public class RemoveDuplicates {
                 k++;
             }
         }
-        //printing array after removing
-        for(int i=0; i<nums.length; i++){
-            System.out.println(nums[i]);
-        }
+        // //printing array after removing
+        // for(int i=0; i<nums.length; i++){
+        //     System.out.println(nums[i]);
+        // }
         return k;
     }
     public static void main(String[] args) {
@@ -25,5 +25,9 @@ public class RemoveDuplicates {
             nums[i] = sc.nextInt();
         }
         System.out.println(removeDuplicate(nums));
+        //printing array after removing
+        for(int i=0; i<nums.length; i++){
+            System.out.println(nums[i]);
+        }
     }
 }
